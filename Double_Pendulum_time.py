@@ -101,7 +101,7 @@ ax.view_init(elev=0, azim=90)
 ax.set_xlabel('X(t)')
 ax.set_ylabel('Time')
 ax.set_zlabel('Y(t)')
-ax.set_title('Trajectory of end mass')
+ax.set_title('Double Pendulum vs. Time')
  
 # Creating the Animation object
 line_ani = animation.FuncAnimation(fig, update, frames=len(t), fargs=(dataset, line0, line1, line2, ax), 
