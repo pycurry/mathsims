@@ -20,7 +20,7 @@ th1 = 120.0      # initial angle of 1st arm (theta1)
 w1 = 0.0         # initial angular velocity of 1st mass (omega1)
 th2 = -20.0      # initial angle of 2nd arm (theta2)
 w2 = 0.0         # initial angular velocity of end mass (omega2)
-mu = 0.05        # coeff of Friction at joints
+mu = 0.05        # coeff of dampning
 
 # Equation is referred from http://www.physics.usyd.edu.au/~wheat/dpend_html/solve_dpend.c
 
